@@ -21,6 +21,16 @@
       }
     ]
   },
+  "configuration": {
+    "title": "Text 2 code Open AI",
+    "properties" : {
+      "text2code.apikey": {
+        "type":"string",
+        "default":"",
+        "description": "PROVIDE OPEN AI API KEY"
+      }
+    }
+  },
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
